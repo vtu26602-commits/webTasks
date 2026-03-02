@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    <div id="mydiv">
+    <h2>Register</h2>
+   <form class="container" action="/register" method="POST">
+
+    <label>Username:</label>
+    <input type="text" name="Username" required>
+
+    <label>Email:</label>
+    <input type="email" name="mail" required>
+
+    <label>Date of Birth:</label>
+    <input type="date" name="dob" required>
+
+    <label>Phone Number:</label>
+    <input type="tel" name="Usernumber" required>
+
+    <label>Department:</label>
+    <select name="dept" required>
+        <option>CSE</option>
+        <option>IT</option>
+        <option>ECE</option>
+        <option>Other</option>
+    </select>
+
+    <button type="submit">REGISTER</button>
+
+</form>
+
+    </div>
+</body>
+</html>
