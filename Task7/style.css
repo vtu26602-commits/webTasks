@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    background: hsl(196, 76%, 61%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    background: white;
+    padding: 25px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+h2 {
+    text-align: center;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input:hover, textarea:hover {
+    background-color: #f0f8ff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
