@@ -1,0 +1,50 @@
+body{
+    background:linear-gradient(to right,red,blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+div{
+    width: 420px;
+    height: 430px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 50px;
+    padding: 30px;
+    cursor: pointer;
+}
+.container{
+    text-align: left;
+    font-weight: 100px;
+}
+button{
+    background-color: hsl(84, 83%, 43%);
+    color: white;
+    width: 97%;
+    height: 28px;
+    border: none;
+    margin: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+    font-weight: lighter;
+    font-size: large;
+}
+
+
+input{
+    width: 95%;
+    padding: 6px;
+}
+select{
+     width: 97%;
+    padding: 6px;
+}
